@@ -19,7 +19,7 @@ export default function Counter(){
     }
 
     return (
-        <div style={{border: '2px solid yellow'}}>
+        <div style={{border: '2px solid yellow', padding: '20px', margin: '20px'}}>
             <h3>Counter :  {count}</h3>
             <button onClick={handleAdd}>Add</button>
             <button onClick={handleReduce}>Reduce</button>
